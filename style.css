@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+*{
+    margin: 1;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(35.15deg, #040404 35.62%, #817e7e 90.61%);
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between ;
+    padding: 24px;
+}
+
+.cabecalho-imagem {
+    height: 72px;
+    margin-left: left;
+
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+    align-items: flex-end;
+    margin-left: 40%;
+    cursor: pointer;
+
+}
+.cabecalho-menu-item {
+    color: #FFF2E7;
+    font-family: 'Secular One', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    background: none;
+}
+
+.option
+{
+    background: none;
+}
+
+
+.pointer {
+    
+    cursor: pointer;
+
+}
+
+.cbc-menu div {
+    width: 32px;
+    height: 2px;
+    background: #FFF2E7;
+    margin: 8px;
+    
+    
+}
+
+.cbc-menu {
+    cursor: pointer;
+    
+}
+
+
+.conteudo {
+    margin-bottom: 60px;
+    border-top: 0.4px solid #FFF2E7;
+}
+
+.conteudo-principal {
+    float: left;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito {
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+
+    gap: 32px;
+}
+
+.conteudo-principal-escrito-titulo {
+    font-family: "Secular One", cursive;
+    font-weight: 400;
+    font-size: 60px;
+    color: #FFF2E7;
+}
+
+.conteudo-principal-escrito-subtitulo {
+    margin-left: 35px;
+    margin-block-start: 3.5rem;
+    font-family: "Secular One", sans-serif;
+    font-size: 20px;
+    color: #FFF2E7;
+}
+
+.conteudo-principal-escrito-botao {
+    font-family: "Secular One", sans-serif;
+    margin-left: 175px;
+    margin-block-start: 3.5rem;
+    background-color: #ffff00;
+    width: 175px;
+    height: 55px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-weight: 400;
+    font-size: 15px;
+    color: #070707;
+}
+
+.conteudo-inicial-imagem {
+    display: flex;
+    width: 500px;
+    margin-left: 850px;
+}
+
+.conteudo-principal-imagem {
+    height: 65px;
+}
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    font-family: "Secular One";
+    margin-top: 1500px;
+}
+
+
+.conteudo-secundario-titulo {
+    border-top: solid #FFF2E7;
+    padding-top: 40px;
+    color: #FFF2E7;
+
+
+}
+
+.conteudo-secundario-paragrafo {
+    border-top: #FFF2E7;
+    font-weight: 100;
+    color: #FFF2E7;
+}
