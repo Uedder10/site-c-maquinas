@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
 
+:root
+{
+    --primary: #817e7e;
+}
+
 *{
     margin: 1;
     padding: 0;
@@ -9,7 +14,7 @@
 
 body {
     font-size: 100%;
-    background: linear-gradient(35.15deg, #040404 35.62%, #817e7e 90.61%);
+    background: linear-gradient(35.15deg, #040404 35.62%, var(--primary) 90.61%);
 }
 
 .cabecalho {
@@ -39,12 +44,17 @@ body {
     font-family: 'Secular One', sans-serif;
     font-weight: 400;
     font-size: 18px;
-    background: none;
+    background: transparent;
+    outline: none;
+    border: none;
 }
 
-.option
+.cabecalho-menu-item option
 {
-    background: none;
+    color: white;
+    background-color: var(--primary);
+    outline: none;
+    border: none;
 }
 
 
@@ -150,3 +160,4 @@ body {
     font-weight: 100;
     color: #FFF2E7;
 }
+
